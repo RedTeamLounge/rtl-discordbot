@@ -1,7 +1,7 @@
 const syntax = '..'
 
 const discord = require('discord.js')
-const client = discord.Client();
+const client = new discord.Client();
 client.on('ready', () => {
       console.log(`Logged in as ${client.user.tag}!`);
     })
